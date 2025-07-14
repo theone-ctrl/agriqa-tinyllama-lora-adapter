@@ -1,0 +1,42 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# 🚫 Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# 💻 VS Code
+.vscode/
+
+# 🪄 Jupyter Notebook
+.ipynb_checkpoints/
+
+# 🤖 Transformers + LoRA Output
+.cache/
+huggingface/
+lora-agriqa-adapter/
+lora-agriqa/
+
+# 🗃️ OS Files
+.DS_Store
+Thumbs.db
+
+# 🔐 Environment Files
+.env
+*.env
+
+# 📦 Packaging
+*.tar.gz
+*.whl
